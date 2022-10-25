@@ -1,0 +1,47 @@
+package avaliacaodegoleiros;
+
+import java.util.ArrayList;
+
+public class Funcionamento {
+	private ArrayList<Selecao> listaSelecao;
+	private ArrayList<Chute> listaChute;
+
+	public ArrayList <Chute> getListaChute() {
+		return listaChute;
+	}
+
+	public void setListaChute(ArrayList <Chute> listaChute) {
+		this.listaChute = listaChute;
+	}
+	
+	public void addChute(Chute chute) {
+		listaChute.add(chute);
+	}
+
+	public ArrayList<Selecao> getListaSelecao() {
+		return listaSelecao;
+	}
+
+	public void setListaSelecao(ArrayList<Selecao> listaSelecao) {
+		this.listaSelecao = listaSelecao;
+	}
+	
+	public int verificarChutesFora() {
+		int chutesFora = 0;
+		
+		for (Chute chute : listaChute) {
+			if(chute.getX() == 0) {
+				chutesFora++;
+			}
+			if(chute.getY() == 0 && chute.getY() != 0) {
+				chutesFora++;
+			}
+			if(chute.getY() == 16 && chute.getX() != 0) {
+				chutesFora++;
+			}
+		}
+		
+		return chutesFora;
+	}
+	
+}

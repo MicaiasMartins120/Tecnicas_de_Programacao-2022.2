@@ -1,0 +1,37 @@
+package Salao_java;
+
+import java.util.Scanner;
+
+public class Apresentacao {
+	public Cliente addCliente(Scanner input) {
+		System.out.println("informe os dados do cliente: ");
+		
+		System.out.println("CPF: ");
+		Cliente cl = new Cliente(input.next());
+		
+		System.out.println("Id: ");
+		cl.setId(input.nextInt());
+		
+		System.out.println("Nome: ");
+		cl.setNome(input.next());
+		
+		System.out.println("\n");
+		
+		return cl;
+	}
+	
+	public ArrayList<Servico> addServico(Scanner input){
+		ArrayList<Servico> aux = new ArrayList<Servico>();
+		System.out.println("Informe os dados do(s) servico(s): ");
+		do {
+			Servico serv = new Servico();
+			
+			System.out.println("Nome: ");
+			serv.setNome(input.next());
+			
+			System.out.println("Descricao: ");
+			serv.setDescricao(input.next());
+			
+		}
+	}
+}

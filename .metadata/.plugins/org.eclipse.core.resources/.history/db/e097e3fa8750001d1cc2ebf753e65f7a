@@ -1,0 +1,7 @@
+package avaliacaodegoleiros;
+
+public class MapeamentoGol {
+	private int quadrante;
+	
+
+}

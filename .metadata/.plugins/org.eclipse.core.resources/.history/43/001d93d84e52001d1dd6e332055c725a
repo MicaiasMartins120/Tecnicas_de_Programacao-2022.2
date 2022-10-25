@@ -1,0 +1,24 @@
+package avaliacaodegoleiros;
+
+import java.util.ArrayList;
+
+public class Selecao {
+	private ArrayList<Goleiro> listaGoleiros;
+
+	public Selecao() {
+		setListaGoleiros(new ArrayList<Goleiro>());
+	}
+	
+	public ArrayList<Goleiro> getListaGoleiros() {
+		return listaGoleiros;
+	}
+
+	public void setListaGoleiros(ArrayList<Goleiro> listaGoleiros) {
+		this.listaGoleiros = listaGoleiros;
+	}
+	
+	public void addGoleiro(Goleiro goleiro) {
+		listaGoleiros.add(goleiro);
+	}
+	
+}

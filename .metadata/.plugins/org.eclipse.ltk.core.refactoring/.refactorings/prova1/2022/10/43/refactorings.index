@@ -1,0 +1,38 @@
+1666267602840	Delete element
+1666269330874	Encapsulate field 'id'
+1666269360074	Encapsulate field 'nome'
+1666270995663	Encapsulate field 'velocidade'
+1666271006924	Encapsulate field 'flexibilidade'
+1666271012765	Encapsulate field 'agilidade'
+1666271017381	Encapsulate field 'coordenacao'
+1666271022213	Encapsulate field 'forca'
+1666271026936	Encapsulate field 'equilibrio'
+1666271031888	Encapsulate field 'AAG'
+1666272810758	Encapsulate field 'id'
+1666272842212	Encapsulate field 'forca'
+1666272850966	Encapsulate field 'quadrante'
+1666272860543	Encapsulate field 'X'
+1666273571053	Encapsulate field 'goleiro'
+1666277267289	Delete element
+1666278048030	Delete element
+1666278216769	Encapsulate field 'verificarGol'
+1666278677283	Delete element
+1666279267649	Encapsulate field 'X'
+1666279273807	Encapsulate field 'Y'
+1666280443012	Encapsulate field 'listaChute'
+1666280597419	Encapsulate field 'listaGoleiro'
+1666289784181	Encapsulate field 'listaSelecao'
+1666290744964	Encapsulate field 'resultado'
+1666292162375	Encapsulate field 'atuacao'
+1666292560952	Encapsulate field 'getAtuacao'
+1666292744166	Encapsulate field 'atuacao'
+1666295061019	Encapsulate field 'resultado'
+1666451697765	Encapsulate field 'listaChute'
+1666452857168	Delete element
+1666452911608	Encapsulate field 'listaSelecao'
+1666453109787	Encapsulate field 'defesas'
+1666453298266	Encapsulate field 'golsTomados'
+1666465082189	Delete element
+1666469650562	Encapsulate field 'XY'
+1666473296512	Encapsulate field 'id'
+1666473314630	Encapsulate field 'nome'

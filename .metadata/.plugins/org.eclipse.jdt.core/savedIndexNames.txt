@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+C:\Users\micai\eclipse-workspace\tecnicas_de_programacao-2022.2\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+1637731351.index
+190884700.index
+4012395448.index
