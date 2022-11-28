@@ -1,6 +1,0 @@
-package avaliacaodegoleiros;
-
-public class Funcionamento {
-	private int verificarGol;
-
-}

@@ -78,7 +78,7 @@ public class Funcoes {
 			if(chute.getX() == 0) {
 				chutesFora++;
 			}
-			if(chute.getY() == 0 && chute.getY() != 0) {
+			if(chute.getY() == 0 && chute.getX() != 0) {
 				chutesFora++;
 			}
 			if(chute.getY() == 16 && chute.getX() != 0) {
@@ -87,7 +87,7 @@ public class Funcoes {
 			if(chute.getX() == 1) {
 				chutesTraveSuperior++;
 			}
-			if(chute.getY() == 1 && chute.getY() != 1) {
+			if(chute.getY() == 1 && chute.getX() != 1) {
 				chutesTraveEsquerda++;
 			}
 			if(chute.getY() == 15 && chute.getX() != 1) {
@@ -116,7 +116,7 @@ public class Funcoes {
 	public int mediaGolsSofridosSelecao(ArrayList<Goleiro> listaGoleiros) {
 		int mediaGolsSofridos = 0;
 		
-		for (Goleiro goleiro : listaGoleiros) {
+		  for (Goleiro goleiro : listaGoleiros) {
 			mediaGolsSofridos += goleiro.getGolsSofridos();
 		}
 		mediaGolsSofridos = mediaGolsSofridos / listaGoleiros.size();
@@ -147,7 +147,7 @@ public class Funcoes {
 				if(goleiro.getDefesasSucedidas() > aux1) {
 					aux3 = aux2;
 					selecaoMelhorGoleiro[2] = selecaoMelhorGoleiro[1];
-					aux2 = aux3;
+					aux2 = aux1;
 					selecaoMelhorGoleiro[1] = selecaoMelhorGoleiro[0];
 					aux1 =  goleiro.getDefesasSucedidas();
 					selecaoMelhorGoleiro[0] = selecao.getNome() + " com o goleiro " + goleiro.getNome();
@@ -192,7 +192,6 @@ public void quadranteComMaisGols(ArrayList<Selecao> listaSelecao, int id) {
 				if(goleiro.getId() == id) {
 					nomeGoleiro = goleiro.getNome();
 					for (Chute chute : goleiro.getListaChutes()) {
-						System.out.print(chute.isFoiGol() + "  ");
 						if(chute.isFoiGol() == true) {
 							switch (chute.getQuadrante()) {
 							case 1:
