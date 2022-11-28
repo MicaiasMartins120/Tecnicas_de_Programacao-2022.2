@@ -49,10 +49,10 @@ public class EndButton extends Button implements ActionListener{
 		JLabel results3 = new JLabel();
 		JLabel results4 = new JLabel();
 		
-		results1.setBounds(400, 200, 100, 100);
-		results2.setBounds(400, 200, 100, 100);
-		results3.setBounds(400, 200, 100, 100);
-		results4.setBounds(400, 200, 100, 100);
+		results1.setBounds(0, 0, 100, 100);
+		results2.setBounds(0, 0, 100, 100);
+		results3.setBounds(0, 0, 100, 100);
+		results4.setBounds(0, 0, 100, 100);
 		
 		results1.setText(player.getName() + " results:");
 		results2.setText("Goals: " + player.getNumGoals());
