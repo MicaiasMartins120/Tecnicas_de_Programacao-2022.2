@@ -1,0 +1,2 @@
+15/12/2022;7:00;Continuação da AF;13:00;Término de todas funcionalidades;14:00;Segundo teste;17:00;Revisão;
+13/12/2022;7:00;Estudar;13:00;Praticar Java;
